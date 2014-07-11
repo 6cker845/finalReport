@@ -1,15 +1,16 @@
-<html>
+<html lang="ja">
  <meta charset="utf-8">
   <head>
 	<title>メンヘラリマインダー</title>
+
   </head>
   
   <body>
   <h2>settings</h2>
-  
-  <form>
+    
+  <form name="form1">
   <p>毎日すること<p>
-  <input type="text" id="todo">
+  <input type="text" name="text1" id="todo" value="やること">
   <p>アラート時刻<p>
   <input type="text" id="alartTime">
   <p>アラートの間隔<p>
@@ -24,11 +25,16 @@
   <option>BL風</option>
   <option>ヤンデレ</option>
   </select>
-  </form>
+  <br>
+<!--   <button type="button" id="settingButton">登録</button> -->
+<!--   <a href="menhera.html"> --><input type="button" value="出力" onclick="textout()">
   
-  <a href="menhera.html"><button type="button" id="toMenhera">登録</button></a>
-
- 
+　</form>
+  
+  <div id="output"></div>
+  
+  <script src="../js/setting.js"></script>
+  
 </body>
-</html
+</html>
   
