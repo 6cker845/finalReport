@@ -1,16 +1,15 @@
-/*
-var todo = document.getElementById("#todo");
-console.log(document.getElementById("#todo"));
 
-function output(){
- var outputArea = document.getElementById("#outputArea").value;
- outputArea.innerHTML = todo + "したー？" ;
+
+var storage = localStorage;
+
+function textin(){
+	if (document.getElementById){
+		  storage.setItem("key",document.form1.text1.value);
+		 /* document.getElementById("output").innerHTML=document.form1.text1.value;　*/
+    console.log(document.form1.text1.value); 		  
+	}
 }
-*/
 
 function textout(){
-	if (document.getElementById){
-		  document.getElementById("output").innerHTML=document.form1.text1.value;
-		  console.log(document.form1.text1.value);
-	}
-};
+	document.getElementById("output").innerHTML=storage.getItem("key");
+}

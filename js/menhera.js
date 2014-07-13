@@ -1,9 +1,4 @@
 
-function output(){
- var outputArea = document.getElementById("#outputArea").value;
- outputArea.innerHTML = todo + "したー？" ;
-}
-
 var comments = new Array(
 		"", "今日はちゃんとやった？", "本当にやったのー？", "ねーこたえてよぉー", "今なにしてるの？", "なんで無視するの？", "もう無視されるの耐えられない", "なんかいってよ", "もう私ダメ", "信じてたのに", "リスカしよ。")
 
@@ -32,6 +27,19 @@ function showComment() {
 	cell1.className = 'name';
 	var HTML1 = comments[cmtCount];
 	cell1.innerHTML = HTML1;
+	
+/* commentsのArrayが最後までいったらもう一周するようにさせたい */
+
+/*
+	if(cmtCount = 10){
+	   clearInterval( cmtCount ); // タイマーのクリア
+	}
+*/
+
+	
+	if(table1 = null){
+		table1.Hidden = true;
+	}
 }
 
 // 繰り返し処理の開始
@@ -39,7 +47,7 @@ function showComment() {
 var PassSec; // 秒数カウント用変数
 function startShowing() {
    PassSec = 0; // カウンタのリセット
-   PassageID = setInterval('showPassage()',1000); // タイマーをセット(1000ms間隔)
+/*    PassageID = setInterval('showPassage()',1000); // タイマーをセット(1000ms間隔) */
    cmtID = setInterval('showComment()', 3000);
    document.getElementById("startcount").disabled = true; // 開始ボタンの無効化   
 }
