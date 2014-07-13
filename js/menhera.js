@@ -9,10 +9,8 @@ var comments = new Array(
 
 /* タイマー */
 
-var PassSec; // 秒数カウント用変数
-
-// 繰り返し処理の中身
 /*
+// 繰り返し処理の中身
 function showPassage() {
    PassSec++; // カウントアップ
    var msg = "ボタンを押してから " + PassSec + "秒が経過しました。"; // 表示文作成
@@ -37,9 +35,11 @@ function showComment() {
 }
 
 // 繰り返し処理の開始
+
+var PassSec; // 秒数カウント用変数
 function startShowing() {
    PassSec = 0; // カウンタのリセット
-/*    PassageID = setInterval('showPassage()',1000); // タイマーをセット(1000ms間隔) */
+   PassageID = setInterval('showPassage()',1000); // タイマーをセット(1000ms間隔)
    cmtID = setInterval('showComment()', 3000);
    document.getElementById("startcount").disabled = true; // 開始ボタンの無効化   
 }
