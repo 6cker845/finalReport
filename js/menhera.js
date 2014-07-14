@@ -19,6 +19,10 @@ function showComment() {
 	var HTML1 = comments[cmtCount];
 	cell1.innerHTML = HTML1;
 	
+	if(cmtCount == 10){
+		cmtCount = 0;
+	}
+	
 }
 
 // 繰り返し処理の開始
@@ -31,6 +35,7 @@ function startShowing() {
    console.log(storage.getItem("timeInterval"));
    document.getElementById("startcount").disabled = true; // 開始ボタンの無効化   
 }
+
 
 function timeValue(){
 	document.getElementById("output").innerHTML=storage.getItem("aim");
