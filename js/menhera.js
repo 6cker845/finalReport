@@ -4,15 +4,6 @@ var comments = new Array(
 
 /* タイマー */
 
-/*
-// 繰り返し処理の中身
-function showPassage() {
-   PassSec++; // カウントアップ
-   var msg = "ボタンを押してから " + PassSec + "秒が経過しました。"; // 表示文作成
-   document.getElementById("PassageArea").innerHTML = msg; // 表示更新
-}
-*/
-
 //コメント更新
 var counter = 0;
 var cmtCount = 0;
@@ -28,18 +19,6 @@ function showComment() {
 	var HTML1 = comments[cmtCount];
 	cell1.innerHTML = HTML1;
 	
-/* commentsのArrayが最後までいったらもう一周するようにさせたい */
-
-/*
-	if(cmtCount = 10){
-	   clearInterval( cmtCount ); // タイマーのクリア
-	}
-*/
-
-	
-	if(table1 = null){
-		table1.Hidden = true;
-	}
 }
 
 // 繰り返し処理の開始
@@ -48,12 +27,14 @@ var PassSec; // 秒数カウント用変数
 function startShowing() {
    PassSec = 0; // カウンタのリセット
 /*    PassageID = setInterval('showPassage()',1000); // タイマーをセット(1000ms間隔) */
-   cmtID = setInterval('showComment()', 3000);
+   cmtID = setInterval('showComment()', (storage.getItem("timeInterval"))*1000);
+   console.log(storage.getItem("timeInterval"));
    document.getElementById("startcount").disabled = true; // 開始ボタンの無効化   
 }
 
-
-
+function timeValue(){
+	document.getElementById("output").innerHTML=storage.getItem("aim");
+}
 
 
 
