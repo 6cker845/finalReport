@@ -13,5 +13,5 @@ function textin(){
 function textout(){
 	document.getElementById("output").innerHTML=storage.getItem("aim");
 	
-	startShowing();
+	startTimer();
 }

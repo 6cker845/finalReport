@@ -22,27 +22,32 @@ function showComment() {
 	if(cmtCount == 10){
 		cmtCount = 0;
 	}
-	
 }
 
 // 繰り返し処理の開始
 
 var PassSec; // 秒数カウント用変数
-function startShowing() {
+function startTimer() {
    PassSec = 0; // カウンタのリセット
 /*    PassageID = setInterval('showPassage()',1000); // タイマーをセット(1000ms間隔) */
    cmtID = setInterval('showComment()', (storage.getItem("timeInterval"))*1000);
    console.log(storage.getItem("timeInterval"));
-   document.getElementById("startcount").disabled = true; // 開始ボタンの無効化   
 }
-
 
 function timeValue(){
 	document.getElementById("output").innerHTML=storage.getItem("aim");
 }
 
 
+/* check.htmlで「本当にやった」ボタンを押すとタイマーが止まる関数をここに記入 */
 
+//check.htmlで関数をつくってここの下に書く関数を呼び出すようにする。
+
+/*
+function stopTimer(){
+	clearInterval( cmtID );
+}
+*/
 
 
 
