@@ -35,8 +35,8 @@ function showComment() {
 var PassSec; // 秒数カウント用変数
 function startTimer() {
    PassSec = 0; // カウンタのリセット
-   cmtID = setInterval('showComment()', (storage.getItem("timeInterval"))*1000);
-   console.log(storage.getItem("timeInterval"));
+   cmtID = setInterval('showComment()',(storage.getItem("hourInterval"))*3600000 + (storage.getItem("minutesInterval"))*60000 + (storage.getItem("secondInterval"))*1000 );
+   console.log(storage.getItem("minutesInterval"));
 }
 
 function timeValue(){
@@ -56,9 +56,15 @@ function displayCheck(){
 
 	var answer = confirm('本当にやったのー？');
 	
+	var table1 = document.getElementById("table1");
+	var row1 = table1.insertRow(counter);
+
 	if(answer){
 		var menhera = "☆☆☆☆☆☆☆☆やったー！1日目だね☆☆☆☆☆☆☆☆";
 		document.getElementById("reloadMH").innerHTML = menhera;
+		
+		var cell1 = row1.insertCell(0);
+		
 	} else {
 		alert('oko');
 	}
