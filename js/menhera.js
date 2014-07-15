@@ -23,8 +23,10 @@ function showComment() {
 		cmtCount = 0;
 	}
 	
+/*
 	storage.setItem("commentCount",cmtCount);
 	console.log(cmtCount); 	
+*/
 
 }
 
@@ -52,14 +54,16 @@ function stopTimer(){
 
 function displayCheck(){
 
+/*
 	var rowLength = storage.getItem("commentCount");
 	console.log(rowLength);
+*/
 
 	var answer = confirm('本当にやったのー？');
 	
 	var table1 = document.getElementById("table1");
 	var row1 = table1.insertRow(counter);
-	var cell1 = row1.insertCell(rowLength);
+	var cell1 = row1.insertCell(row1.Length);
 	cell1.setAttribute("class","name");
 	cell1.className = 'name';
 	
