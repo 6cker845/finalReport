@@ -19,9 +19,13 @@ function showComment() {
 	var HTML1 = comments[cmtCount];
 	cell1.innerHTML = HTML1;
 	
-	if(cmtCount == 10){
+	if(cmtCount == 30){
 		cmtCount = 0;
 	}
+	
+	storage.setItem("commentCount",cmtCount);
+	console.log(cmtCount); 	
+
 }
 
 // 繰り返し処理の開始
@@ -29,7 +33,6 @@ function showComment() {
 var PassSec; // 秒数カウント用変数
 function startTimer() {
    PassSec = 0; // カウンタのリセット
-/*    PassageID = setInterval('showPassage()',1000); // タイマーをセット(1000ms間隔) */
    cmtID = setInterval('showComment()', (storage.getItem("timeInterval"))*1000);
    console.log(storage.getItem("timeInterval"));
 }
@@ -43,11 +46,29 @@ function timeValue(){
 
 //check.htmlで関数をつくってここの下に書く関数を呼び出すようにする。
 
-/*
 function stopTimer(){
 	clearInterval( cmtID );
 }
-*/
 
+function displayCheck(){
+
+	var rowLength = storage.getItem("commentCount");
+	console.log(rowLength);
+
+	var answer = confirm('本当にやったのー？');
+	
+	var table1 = document.getElementById("table1");
+	var row1 = table1.insertRow(counter);
+	var cell1 = row1.insertCell(rowLength);
+	cell1.setAttribute("class","name");
+	cell1.className = 'name';
+	
+	if(answer){
+		var HTML1 = "やったー！◯日目だね";
+		cell1.innerHTML = HTML1;
+	} else {
+		alert('oko');
+	}
+}
 
 
