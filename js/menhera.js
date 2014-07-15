@@ -7,7 +7,7 @@ var comments = new Array(
 //コメント更新
 var counter = 0;
 var cmtCount = 0;
-function showComment() { 
+function showComment() {
 	counter++;
 	cmtCount++;
 
@@ -54,22 +54,11 @@ function stopTimer(){
 
 function displayCheck(){
 
-/*
-	var rowLength = storage.getItem("commentCount");
-	console.log(rowLength);
-*/
-
 	var answer = confirm('本当にやったのー？');
 	
-	var table1 = document.getElementById("table1");
-	var row1 = table1.insertRow(counter);
-	var cell1 = row1.insertCell(row1.Length);
-	cell1.setAttribute("class","name");
-	cell1.className = 'name';
-	
 	if(answer){
-		var HTML1 = "やったー！◯日目だね";
-		cell1.innerHTML = HTML1;
+		var menhera = "☆☆☆☆☆☆☆☆やったー！1日目だね☆☆☆☆☆☆☆☆";
+		document.getElementById("reloadMH").innerHTML = menhera;
 	} else {
 		alert('oko');
 	}
