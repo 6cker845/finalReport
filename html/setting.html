@@ -12,9 +12,9 @@
   <p>毎日すること<p>
   <input type="text" name="text1" id="todo" value="やること">
   <p>アラートの間隔<p>
-  <input type="text" name="hour">時間
-  <input type="text" name="minute">分
-  <input type="text" name="second">秒
+  <input type="text" id="hourID" name="hour">時間
+  <input type="text" id="minuteID" name="minute">分
+  <input type="text" id="secondID" name="second">秒
   <p>アラートのタイプ<p>
   <select id="operator">
   <option>選択</option>
@@ -28,11 +28,13 @@
   <br>
   <a href="index.html"><button>←</button></a>
 <!--   <button type="button" id="settingButton">登録</button> -->
-  <a href="menhera.html"><input type="button" value="登録" onclick="textin()">
+<!--   <a href="menhera.html"> --><input type="button" value="登録" onclick="checkDetails()">
   
 　</form>
   
-  <div id="output"></div>
+　<div id="error" class="hide">
+　　 <li>数値を入力してください</li>
+  </div>
   
   <script src="../js/setting.js"></script>
   <script src="../js/menhera.js"></script>
