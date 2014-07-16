@@ -87,7 +87,7 @@ function displayCheck(){
         cmtCount = 0;
 	} else {
 		alert('リスカする、知らないっ！');
-	location.href="menhera.jpg";
+	location.href="oko.html";
 	}
 }
 
