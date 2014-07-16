@@ -86,7 +86,8 @@ function displayCheck(){
         document.getElementById("reloadMH").innerHTML = menhera;
         cmtCount = 0;
 	} else {
-		alert('oko');
+		alert('リスカする、知らないっ！');
+	location.href="menhera.jpg";
 	}
 }
 
