@@ -1,3 +1,18 @@
+var slot = new Array('指定開始日','指定終了日','処理開始時間');
+var today = new Date();         //今現在の年・月・日・時・分・秒を取得
+var day = today.getDate();      //todayから日付の取得
+var hour = today.getHours();   //todayから現時刻の取得</pre>
+
+function firstTimer(){
+ //指定日期間以外の日付の場合の処理
+ if(!(day >= slot[0] && day <= slot[1])){
+ 	firstTimer();
+ //指定日期間の指定時間になった場合の処理
+ }else{
+ 	startTimer();
+ }
+});
+
 var PassSec; 
 var PassMin;
 var PassHour;
