@@ -14,14 +14,43 @@ body{
 	background:#66ff99;
 	margin-left:auto;
 	margin-right:auto;
-	 
-    font-weight: bold;
-    font-style:italic;
+	margin-top: 200px;
+    font-weight: 500;
+    border: 2px solid #ddd;
+    padding:50px 50px; 
+    border-radius: 3px;
+    width: 200px;
+    height:250px;
+}
+
+.box2{
+	color:#ecf0f1;
+	background:#66ff99;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top: 50px;
+    font-weight: 500;
+    border: 2px solid #ddd;
+    padding:50px 50px; 
+    border-radius: 3px;
+    width: 400px;
+    height:650px;
+
+}
+h2{
+	color: #3498db;
+}
+.box3{
+	color:#ecf0f1;
+	background:#66ff99;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top: 200px;
+    font-weight: 500;
     border: 2px solid #ddd;
     padding:50px 50px; 
     border-radius: 3px;
     width: 200px;
     height:300px;
-
 
 }
