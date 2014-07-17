@@ -1,3 +1,4 @@
+/*
 var slot = new Array('指定開始日','指定終了日','処理開始時間');
 var today = new Date();         //今現在の年・月・日・時・分・秒を取得
 var day = today.getDate();      //todayから日付の取得
@@ -12,6 +13,7 @@ function firstTimer(){
  	startTimer();
  }
 });
+*/
 
 var PassSec; 
 var PassMin;
@@ -35,7 +37,6 @@ var comments = new Array(
 /* タイマー */
 
 //コメントをcellに表示したい場合 
-/*
 function showComment() {
 	counter++;
 	cmtCount++;
@@ -48,11 +49,10 @@ function showComment() {
 	var HTML1 = comments[cmtCount];
 	cell1.innerHTML = HTML1;
 	
-	if(cmtCount == 30){
+	if(cmtCount == 29){
 		cmtCount = 0;
 	}
 }
-*/
 
 // 繰り返し処理の開始
 
@@ -69,6 +69,7 @@ function startTimer() {
    
    cmtID = setInterval('showAlarmMessage()',hours*3600000 + minutes*60000 + seconds*1000);
    PassageID = setInterval('showPassage()', hours*3600000 + minutes*60000 + seconds*1000); // タイマーをセット(1000ms間隔)
+   cellID = setInterval('showComment()', hours*3600000 + minutes*60000 + seconds*1000);
    
    	Notification.requestPermission(function(status){
    		if(Notification.permission != status){
