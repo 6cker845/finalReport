@@ -44,9 +44,9 @@ function getDate(){
 	var hourNow = now.getHours();
 	var minuteNow = now.getMinutes();
 	
-	
-	
-	
+	if(inputHour == hourNow && inputMinute ==  minuteNow){
+		
+	}	
 }
 
 //コメントをcellに表示したい場合 
@@ -111,6 +111,8 @@ function displayCheck(){
 	if(answer){
 		showPassage();
 		var menhera = "目標設定から" + PassHour + "時間" + PassMin + "分" + PassSec + "秒たったよ! <br> おめでとう！<br>";
+		
+//      本当は日にち毎に更新されるようにする。
 /* 		var menhera = day + "日目だね！おめでとう！"; */
         document.getElementById("reloadMH").innerHTML = menhera;
         cmtCount = 0;
