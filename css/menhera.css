@@ -1,6 +1,6 @@
 button{
 	font-size: 100%;
-	color: #808080;
+	color: #66ff99;
 	background-color: #FFFFFF;
 	padding: .4px 2px;
 	border: none 1px #57D0FC;
@@ -13,19 +13,20 @@ button:hover{
 	border-color: #59b1eb;
 	color: #59b1eb;
  }
+
  #todo{
  	font-size: 100%;
-	color: #808080;
+	color: #66ff99;
 	background-color: #FFFFFF;
 	padding: .4px 2px;
-	border: none 1px #57D0FC;
+	border: none 1px #66ff99;
 	border-radius:3px;
 	border: solid 1px #D5ECF8; 
  }
 
  #StarhourID{
  	font-size: 100%;
-	color: #808080;
+	color: #66ff99;
 	background-color: #FFFFFF;
 	padding: .4px 2px;
 	border: none 1px #57D0FC;
@@ -36,7 +37,7 @@ button:hover{
 
  #StartminuteID{
  	font-size: 100%;
-	color: #808080;
+	color: #66ff99;
 	background-color: #FFFFFF;
 	padding: .4px 2px;
 	border: none 1px #57D0FC;
@@ -47,7 +48,7 @@ button:hover{
 
 #hourID{
 	font-size: 100%;
-	color: #808080;
+	color: #66ff99;
 	background-color: #FFFFFF;
 	padding: .4px 2px;
 	border: none 1px #57D0FC;
@@ -57,7 +58,7 @@ button:hover{
 
 #minuteID{
 	font-size: 100%;
-	color: #808080;
+	color: #66ff99;
 	background-color: #FFFFFF;
 	padding: .4px 2px;
 	border: none 1px #57D0FC;
@@ -68,7 +69,7 @@ button:hover{
 
 #secondID{
     font-size: 100%;
-	color: #808080;
+	color: #66ff99;
 	background-color: #FFFFFF;
 	padding: .4px 2px;
 	border: none 1px #57D0FC;
@@ -77,7 +78,7 @@ button:hover{
 }
 #operator{
 	font-size: 100%;
-	color: #808080;
+	color: #66ff99;
 	background-color: #FFFFFF;
 	padding: .4px 2px;
 	border: none 1px #57D0FC;
@@ -86,7 +87,7 @@ button:hover{
 }
 
 #checkButton{font-size: 100%;
-	color: #808080;
+	color: #66ff99;
 	background-color: #FFFFFF;
 	padding: .4px 2px;
 	border: none 1px #57D0FC;
@@ -101,7 +102,7 @@ button:hover{
 }
 
 #toCheck{
-	color: #808080;
+	color: #66ff99;
 	background-color: #FFFFFF;
 	padding: .4px 2px;
 	border: none 1px #57D0FC;
