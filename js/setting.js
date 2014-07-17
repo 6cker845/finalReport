@@ -21,6 +21,10 @@ var hideError = function(){
 function loadText(){
 	if (document.getElementById){
 		  storage.setItem("aim",document.form1.text1.value);
+		  
+		  storage.setItem("startHour", document.form1.starHour.value);
+		  storage.setItem("startMinute", document.form1.startMinute.value);
+		  
 		  storage.setItem("hourInterval", document.form1.hour.value);
 		  storage.setItem("minutesInterval", document.form1.minute.value);
 		  storage.setItem("secondInterval", document.form1.second.value);
