@@ -37,6 +37,15 @@ function textout(){
 }
 
 /*
+function loadOption(){
+	var i=0;
+	while(i<=23){
+		document.getElementById("hourOption").innerHTML=document.write('<option value="' + i + '">' + i + '歳</option>');
+	}
+}
+*/
+
+/*
 var isReady = function(a){
 	return isNumber(a);
 };
