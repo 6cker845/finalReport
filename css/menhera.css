@@ -24,7 +24,7 @@ button:hover{
 	border: solid 1px #708090; 
  }
 
- #StarhourID{
+ #starthourID{
  	font-size: 60%;
 	color: #A9A9A9;
 	background-color: #FFFFFF;
@@ -35,7 +35,7 @@ button:hover{
 	 }
 
 
- #StartminuteID{
+ #startMinuteID{
  	font-size: 60%;
 	color: #A9A9A9;
 	background-color: #FFFFFF;

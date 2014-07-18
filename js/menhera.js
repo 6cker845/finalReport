@@ -51,6 +51,7 @@ function getDate(){
 }
 
 //コメントをcellに表示したい場合 
+/*
 function showComment() {
 	counter++;
 	cmtCount++;
@@ -67,6 +68,7 @@ function showComment() {
 		cmtCount = 0;
 	}
 }
+*/
 
 // 繰り返し処理の開始
 
