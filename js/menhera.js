@@ -25,6 +25,7 @@ var cmtCount = 0;
 var seconds = Number(storage.getItem("secondInterval"));
 var minutes = Number(storage.getItem("minutesInterval"));
 var hours = Number(storage.getItem("hourInterval"));
+
 var inputHour = Number(storage.getItem("startHour"));
 var inputMinute = Number(storage.getItem("startMinute"));
 
@@ -110,6 +111,7 @@ function displayCheck(){
 
 	if(answer){
 		showPassage();
+
 		var menhera = "目標設定から<br>" + PassHour + "時間" + PassMin + "分" + PassSec + "秒<br>たったよ! <br>おめでとう！<br>";
 //      本当は日にち毎に更新されるようにする。
 

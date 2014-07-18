@@ -22,7 +22,7 @@ function loadText(){
 	if (document.getElementById){
 		  storage.setItem("aim",document.form1.text1.value);
 		  
-		  storage.setItem("startHour", document.form1.starHour.value);
+		  storage.setItem("startHour", document.form1.startHour.value);
 		  storage.setItem("startMinute", document.form1.startMinute.value);
 		  
 		  storage.setItem("hourInterval", document.form1.hour.value);
