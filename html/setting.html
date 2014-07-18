@@ -3,16 +3,21 @@
   <head>
 	 <title>メンヘラリマインダー</title>
    <link rel="stylesheet" type="text/css" href="../css/main.css">
+   <link rel="stylesheet" type="text/css" href="../css/menhera.css">
+  </head>
  </head>
-  
-  <body>
+ 
+ <body>
+<!--   <body onload="loadOption();"> -->
+    <div id="box2">
   <h2>settings</h2>
     
   <form name="form1">
   <p>毎日すること<p>
   <input type="text" name="text1" id="todo" value="やること">
     <p>アラートの開始時刻<p>
-      <select id="StarhourID" name="Starhour">
+      <select id="startHourID" name="startHour">
+<!--       	<div id="hourOption"></div> -->
                         <option value="00">00</option>
                         <option value="01">01</option>
                         <option value="02">02</option>
@@ -38,7 +43,7 @@
                         <option value="22">22</option>
                         <option value="23">23</option>
                     </select>時
-                    <select id="StartminuteID" name="Startminute">
+                    <select id="startMinuteID" name="startMinute">
                         <option value="00">00</option>
                         <option value="01">01</option>
                         <option value="02">02</option>
@@ -256,7 +261,7 @@
                         <option value="58">58</option>
                         <option value="59">59</option>
                     </select>
-                    秒ごとにアラートする
+                    秒<br>ごとにアラートする<br>
 
   <p>アラートのタイプ<p>
   <select id="operator">
@@ -271,7 +276,7 @@
   <br>
 <!--   <a href="index.html"><button>←</button></a> -->
 <!--   <button type="button" id="settingButton">登録</button> -->
-  <a href="menhera.html"><input type="button" id="checkButton" value="登録" onclick="loadText();" >
+  <br><a href="menhera.html"><input type="button" id="checkButton" value="登録" onclick="loadText();" >
   
 　</form>
   
@@ -283,7 +288,8 @@
   
   <script src="../js/setting.js"></script>
   <script src="../js/menhera.js"></script>
-  
+    </div>
+
 </body>
 </html>
   

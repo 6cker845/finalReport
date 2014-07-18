@@ -25,6 +25,10 @@ var cmtCount = 0;
 var seconds = Number(storage.getItem("secondInterval"));
 var minutes = Number(storage.getItem("minutesInterval"));
 var hours = Number(storage.getItem("hourInterval"));
+
+var inputHour = Number(storage.getItem("startHour"));
+var inputMinute = Number(storage.getItem("startMinute"));
+
 var days = hours*24;
 
 var alarm = {
@@ -36,7 +40,18 @@ var comments = new Array(
 
 /* タイマー */
 
+function getDate(){
+	var now = new Date();
+	var hourNow = now.getHours();
+	var minuteNow = now.getMinutes();
+	
+	if(inputHour == hourNow && inputMinute ==  minuteNow){
+		
+	}	
+}
+
 //コメントをcellに表示したい場合 
+/*
 function showComment() {
 	counter++;
 	cmtCount++;
@@ -53,6 +68,7 @@ function showComment() {
 		cmtCount = 0;
 	}
 }
+*/
 
 // 繰り返し処理の開始
 
@@ -97,13 +113,20 @@ function displayCheck(){
 
 	if(answer){
 		showPassage();
+<<<<<<< HEAD
 		var menhera = "目標時間から" + PassHour + "時間" + PassMin + "分" + PassSec + "秒だったよ!お疲れさまヾ(*´∀｀*)ﾉ";
+=======
+
+		var menhera = "目標設定から<br>" + PassHour + "時間" + PassMin + "分" + PassSec + "秒<br>たったよ! <br>おめでとう！<br>";
+//      本当は日にち毎に更新されるようにする。
+
+>>>>>>> FETCH_HEAD
 /* 		var menhera = day + "日目だね！おめでとう！"; */
         document.getElementById("reloadMH").innerHTML = menhera;
         cmtCount = 0;
 	} else {
 		alert('リスカする、知らないっ！');
-	location.href="oko.html";
+	　　location.href="oko.html";
 	}
 }
 

@@ -1,0 +1,117 @@
+button{
+	font-size: 120%;
+	color: #20B2AA;
+	background-color: #FFFFFF;
+	padding: 2px 6px;
+	border: none 1px #57D0FC;
+	border-radius:3px;
+	border: solid 1px #D5ECF8; 
+}
+
+button:hover{
+	background-color: #fff;
+	border-color: #3498db;
+	color: #3498db;
+ }
+
+ #todo{
+ 	font-size: 120%;
+	color: #20B2AA;
+	background-color: #FFFFFF;
+	padding: 4px 2px;
+	border: none 1px #57D0FC;
+	border-radius:3px;
+	border: solid 1px #708090; 
+ }
+
+ #starthourID{
+ 	font-size: 60%;
+	color: #20B2AA;
+	background-color: #FFFFFF;
+	padding: 4px 2px;
+	border: none 1px #57D0FC;
+	border-radius:3px;
+	border: solid 1px #D5ECF8;
+	 }
+
+
+ #startMinuteID{
+ 	font-size: 60%;
+	color: #20B2AA;
+	background-color: #FFFFFF;
+	padding: 4px 2px;
+	border: none 1px #57D0FC;
+	border-radius:3px;
+	border: solid 1px #D5ECF8;  
+
+ }
+
+#hourID{
+	font-size: 60%;
+	color: #20B2AA;
+	background-color: #FFFFFF;
+	padding: 4px 2px;
+	border: none 1px #57D0FC;
+	border-radius:3px;
+	border: solid 1px #D5ECF8;  
+}
+
+#minuteID{
+	font-size: 60%;
+	color: #20B2AA;
+	background-color: #FFFFFF;
+	padding: 4px 2px;
+	border: none 1px #57D0FC;
+	border-radius:3px;
+	border: solid 1px #D5ECF8; 
+
+}
+
+#secondID{
+    font-size: 60%;
+	color: #20B2AA;
+	background-color: #FFFFFF;
+	padding: 4px 2px;
+	border: none 1px #57D0FC;
+	border-radius:3px;
+	border: solid 1px #D5ECF8; 
+}
+#operator{
+	font-size: 60%;
+	color: #20B2AA;
+	background-color: #FFFFFF;
+	padding: 4px 2px;
+	border: none 1px #57D0FC;
+	border-radius:3px;
+	border: solid 1px #D5ECF8; 
+}
+
+#checkButton{
+	font-size: 100%;
+	color: #20B2AA;
+	background-color: #FFFFFF;
+	padding: 4px 2px;
+	border: none 1px #57D0FC;
+	border-radius:3px;
+	border: solid 1px #D5ECF8; 
+
+}
+#checkButton:hover{
+	background-color: #fff;
+	border-color: #3498db;
+	color: #3498db;
+}
+
+#toCheck{
+	color: #20B2AA;
+	background-color: #FFFFFF;
+	padding: 4px 2px;
+	border: none 1px #57D0FC;
+	border-radius:3px;
+	border: solid 1px #D5ECF8; 
+}
+#toCheck:hover{
+	background-color: #fff;
+	border-color: #3498db;
+	color: #3498db;
+}
