@@ -1,11 +1,11 @@
 button{
-	font-size: 120%;
+	font-size: 150%;
 	color: #20B2AA;
 	background-color: #FFFFFF;
-	padding: 2px 6px;
+	padding: 5px 15px;
 	border: none 1px #57D0FC;
 	border-radius:3px;
-	border: solid 1px #D5ECF8; 
+	border: solid 1px #B0C4DE; 
 }
 
 button:hover{
@@ -77,23 +77,23 @@ button:hover{
 	border: solid 1px #D5ECF8; 
 }
 #operator{
-	font-size: 60%;
+	font-size: 80%;
 	color: #20B2AA;
 	background-color: #FFFFFF;
-	padding: 4px 2px;
+	padding: 6px 3px;
 	border: none 1px #57D0FC;
 	border-radius:3px;
 	border: solid 1px #D5ECF8; 
 }
 
 #checkButton{
-	font-size: 100%;
-	color: #20B2AA;
+	font-size: 120%;
+	color: #708090;
 	background-color: #FFFFFF;
-	padding: 4px 2px;
+	padding: 6px 3px;
 	border: none 1px #57D0FC;
 	border-radius:3px;
-	border: solid 1px #D5ECF8; 
+	border: solid 1px #B0C4DE; 
 
 }
 #checkButton:hover{
@@ -103,7 +103,7 @@ button:hover{
 }
 
 #toCheck{
-	color: #20B2AA;
+	color: #708090;
 	background-color: #FFFFFF;
 	padding: 4px 2px;
 	border: none 1px #57D0FC;
@@ -114,4 +114,13 @@ button:hover{
 	background-color: #fff;
 	border-color: #3498db;
 	color: #3498db;
+}
+
+#todo{
+	color: #20B2AA;
+	font-size: 24px;
+
+}
+#output{
+	color: #3498DB;
 }
