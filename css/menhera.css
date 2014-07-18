@@ -1,8 +1,8 @@
 button{
-	font-size: 100%;
+	font-size: 120%;
 	color: #A9A9A9;
 	background-color: #FFFFFF;
-	padding: .4px 2px;
+	padding: 2px 6px;
 	border: none 1px #57D0FC;
 	border-radius:3px;
 	border: solid 1px #D5ECF8; 
@@ -15,20 +15,20 @@ button:hover{
  }
 
  #todo{
- 	font-size: 100%;
+ 	font-size: 120%;
 	color: #A9A9A9;
 	background-color: #FFFFFF;
-	padding: .4px 2px;
+	padding: 4px 2px;
 	border: none 1px #57D0FC;
 	border-radius:3px;
 	border: solid 1px #708090; 
  }
 
  #StarhourID{
- 	font-size: 100%;
+ 	font-size: 60%;
 	color: #A9A9A9;
 	background-color: #FFFFFF;
-	padding: .4px 2px;
+	padding: 4px 2px;
 	border: none 1px #57D0FC;
 	border-radius:3px;
 	border: solid 1px #D5ECF8;
@@ -36,10 +36,10 @@ button:hover{
 
 
  #StartminuteID{
- 	font-size: 100%;
+ 	font-size: 60%;
 	color: #A9A9A9;
 	background-color: #FFFFFF;
-	padding: .4px 2px;
+	padding: 4px 2px;
 	border: none 1px #57D0FC;
 	border-radius:3px;
 	border: solid 1px #D5ECF8;  
@@ -47,20 +47,20 @@ button:hover{
  }
 
 #hourID{
-	font-size: 100%;
+	font-size: 60%;
 	color: #A9A9A9;
 	background-color: #FFFFFF;
-	padding: .4px 2px;
+	padding: 4px 2px;
 	border: none 1px #57D0FC;
 	border-radius:3px;
 	border: solid 1px #D5ECF8;  
 }
 
 #minuteID{
-	font-size: 100%;
+	font-size: 60%;
 	color: #A9A9A9;
 	background-color: #FFFFFF;
-	padding: .4px 2px;
+	padding: 4px 2px;
 	border: none 1px #57D0FC;
 	border-radius:3px;
 	border: solid 1px #D5ECF8; 
@@ -68,28 +68,29 @@ button:hover{
 }
 
 #secondID{
-    font-size: 100%;
+    font-size: 60%;
 	color: #A9A9A9;
 	background-color: #FFFFFF;
-	padding: .4px 2px;
+	padding: 4px 2px;
 	border: none 1px #57D0FC;
 	border-radius:3px;
 	border: solid 1px #D5ECF8; 
 }
 #operator{
-	font-size: 100%;
+	font-size: 60%;
 	color: #A9A9A9;
 	background-color: #FFFFFF;
-	padding: .4px 2px;
+	padding: 4px 2px;
 	border: none 1px #57D0FC;
 	border-radius:3px;
 	border: solid 1px #D5ECF8; 
 }
 
-#checkButton{font-size: 100%;
+#checkButton{
+	font-size: 100%;
 	color: #A9A9A9;
 	background-color: #FFFFFF;
-	padding: .4px 2px;
+	padding: 4px 2px;
 	border: none 1px #57D0FC;
 	border-radius:3px;
 	border: solid 1px #D5ECF8; 
@@ -104,7 +105,7 @@ button:hover{
 #toCheck{
 	color: #A9A9A9;
 	background-color: #FFFFFF;
-	padding: .4px 2px;
+	padding: 4px 2px;
 	border: none 1px #57D0FC;
 	border-radius:3px;
 	border: solid 1px #D5ECF8; 

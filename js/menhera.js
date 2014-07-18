@@ -110,7 +110,7 @@ function displayCheck(){
 
 	if(answer){
 		showPassage();
-		var menhera = "目標設定から" + PassHour + "時間" + PassMin + "分" + PassSec + "秒たったよ! <br> おめでとう！<br>";
+		var menhera = "目標設定から<br>" + PassHour + "時間" + PassMin + "分" + PassSec + "秒<br>たったよ! <br>おめでとう！<br>";
 /* 		var menhera = day + "日目だね！おめでとう！"; */
         document.getElementById("reloadMH").innerHTML = menhera;
         cmtCount = 0;
