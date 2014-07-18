@@ -1,6 +1,6 @@
 button{
 	font-size: 120%;
-	color: #A9A9A9;
+	color: #20B2AA;
 	background-color: #FFFFFF;
 	padding: 2px 6px;
 	border: none 1px #57D0FC;
@@ -16,7 +16,7 @@ button:hover{
 
  #todo{
  	font-size: 120%;
-	color: #A9A9A9;
+	color: #20B2AA;
 	background-color: #FFFFFF;
 	padding: 4px 2px;
 	border: none 1px #57D0FC;
@@ -26,7 +26,7 @@ button:hover{
 
  #starthourID{
  	font-size: 60%;
-	color: #A9A9A9;
+	color: #20B2AA;
 	background-color: #FFFFFF;
 	padding: 4px 2px;
 	border: none 1px #57D0FC;
@@ -37,7 +37,7 @@ button:hover{
 
  #startMinuteID{
  	font-size: 60%;
-	color: #A9A9A9;
+	color: #20B2AA;
 	background-color: #FFFFFF;
 	padding: 4px 2px;
 	border: none 1px #57D0FC;
@@ -48,7 +48,7 @@ button:hover{
 
 #hourID{
 	font-size: 60%;
-	color: #A9A9A9;
+	color: #20B2AA;
 	background-color: #FFFFFF;
 	padding: 4px 2px;
 	border: none 1px #57D0FC;
@@ -58,7 +58,7 @@ button:hover{
 
 #minuteID{
 	font-size: 60%;
-	color: #A9A9A9;
+	color: #20B2AA;
 	background-color: #FFFFFF;
 	padding: 4px 2px;
 	border: none 1px #57D0FC;
@@ -69,7 +69,7 @@ button:hover{
 
 #secondID{
     font-size: 60%;
-	color: #A9A9A9;
+	color: #20B2AA;
 	background-color: #FFFFFF;
 	padding: 4px 2px;
 	border: none 1px #57D0FC;
@@ -78,7 +78,7 @@ button:hover{
 }
 #operator{
 	font-size: 60%;
-	color: #A9A9A9;
+	color: #20B2AA;
 	background-color: #FFFFFF;
 	padding: 4px 2px;
 	border: none 1px #57D0FC;
@@ -88,7 +88,7 @@ button:hover{
 
 #checkButton{
 	font-size: 100%;
-	color: #A9A9A9;
+	color: #20B2AA;
 	background-color: #FFFFFF;
 	padding: 4px 2px;
 	border: none 1px #57D0FC;
@@ -103,7 +103,7 @@ button:hover{
 }
 
 #toCheck{
-	color: #A9A9A9;
+	color: #20B2AA;
 	background-color: #FFFFFF;
 	padding: 4px 2px;
 	border: none 1px #57D0FC;

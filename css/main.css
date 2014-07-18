@@ -3,14 +3,14 @@ body{
 	font-size: 24px;
 	line-height: 150%;
 
-	color: #66ff99;
+	color: #20B2AA;
 	margin: 0;
 	text-align: center;
 }
 
 
 #box1{
-	color:#66ff99;
+	color:#20B2AA;
 	background:#FFFFFF;
 	margin-left:auto;
 	margin-right:auto;
@@ -24,7 +24,7 @@ body{
 }
 
 #box2{
-	color:#66ff99;
+	color:#20B2AA;
 	font-size: 20px;
 	background:#FFFFFF;
 	margin-left:auto;
@@ -44,7 +44,7 @@ h2{
 
 }
 #box3{
-	color:#A9A9A9;
+	color:#20B2AA
 	background:#FFFFFF;
 	margin-left:auto;
 	margin-right:auto;
