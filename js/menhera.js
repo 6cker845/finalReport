@@ -84,7 +84,7 @@ function showAlarmMessage(){
 	}
 	alarm.output.textContent = message;
 	
-	if(cmtCount == 30){
+	if(cmtCount == 29){
 		cmtCount = 0;
 	}
 };
