@@ -33,7 +33,7 @@ function loadText(){
 
 function textout(){
 	document.getElementById("output").innerHTML=storage.getItem("aim");
-	startTimer();
+	getDate();
 }
 
 /*
