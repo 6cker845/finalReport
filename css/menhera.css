@@ -2,10 +2,10 @@ button{
 	font-size: 150%;
 	color: #20B2AA;
 	background-color: #FFFFFF;
-	padding: 5px 5px;
+	padding: 3px 9px;
 	border: none 1px #57D0FC;
 	border-radius:3px;
-	border: solid 1px #B0C4DE; 
+	border: solid 2px #B0C4DE; 
 }
 
 button:hover{
@@ -93,7 +93,7 @@ button:hover{
 	padding: 6px 3px;
 	border: none 1px #57D0FC;
 	border-radius:3px;
-	border: solid 1px #B0C4DE; 
+	border: solid 2px #B0C4DE; 
 
 }
 #checkButton:hover{
@@ -105,10 +105,10 @@ button:hover{
 #toCheck{
 	color: #708090;
 	background-color: #FFFFFF;
-	padding: 4px 2px;
+	padding: 5px 2px;
 	border: none 1px #57D0FC;
 	border-radius:3px;
-	border: solid 1px #D5ECF8; 
+	border: solid 2px #D5ECF8; 
 }
 #toCheck:hover{
 	background-color: #fff;
