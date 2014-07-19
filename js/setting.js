@@ -69,7 +69,3 @@ var initApp = function(){
 
 initApp();
 */
-
-
-
-
