@@ -6,7 +6,7 @@ button{
 	border: none 1px #57D0FC;
 	border-radius:3px;
 	border: solid 2px #B0C4DE; 
-	text-align: center;
+
 }
 
 button:hover{
@@ -97,6 +97,7 @@ button:hover{
 	border: solid 2px #B0C4DE; 
 
 }
+
 #checkButton:hover{
 	background-color: #fff;
 	border-color: #3498db;
@@ -109,13 +110,15 @@ button:hover{
 	padding: 9px 2px;
 	border: none 1px #57D0FC;
 	border-radius:3px;
-	text-align: center;
+	
 	border: solid 2px #D5ECF8; 
 }
+
 #toCheck:hover{
 	background-color: #fff;
 	border-color: #3498db;
 	color: #3498db;
+
 }
 
 #todo{
