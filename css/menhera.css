@@ -6,6 +6,7 @@ button{
 	border: none 1px #57D0FC;
 	border-radius:3px;
 	border: solid 2px #B0C4DE; 
+	text-align: center;
 }
 
 button:hover{
